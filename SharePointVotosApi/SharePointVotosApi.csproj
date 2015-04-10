@@ -43,12 +43,56 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="BuscadorOpinion\Elements.xml" />
+    <Content Include="Features\Feature2\Feature2.Template.xml">
+      <DependentUpon>Feature2.feature</DependentUpon>
+    </Content>
+    <Content Include="Opiniones\Elements.xml" />
+    <Content Include="Opiniones\OpinionesInstance\Elements.xml" />
+    <Content Include="Opiniones\Schema.xml" />
+    <Content Include="Positivo\Elements.xml" />
+    <Content Include="TipoOpiniones\Elements.xml" />
+    <Content Include="Votos\Elements.xml" />
+    <Content Include="Votos\Schema.xml" />
+    <Content Include="Votos\VotosInstance\Elements.xml" />
+    <Content Include="Voto\Elements.xml" />
+    <None Include="BuscadorOpinion\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{513c504e-39f0-4246-8532-aa90b8d1b7de}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\Feature2\Feature2.feature">
+      <FeatureId>{80c9578e-6702-4846-bc26-7c36e9190c6a}</FeatureId>
+    </None>
+    <None Include="Opiniones\OpinionesInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b46e290a-f3e5-490f-acb2-327b49153a1d}</SharePointProjectItemId>
+    </None>
+    <None Include="Opiniones\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{71a5f014-e4db-41d3-8b18-2a349a64473b}</SharePointProjectItemId>
+    </None>
+    <None Include="Opinion\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{48367525-f2cc-4fc8-9eb9-67eb2477d446}</SharePointProjectItemId>
+    </None>
     <None Include="packages.config" />
     <None Include="Pages\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{6375eb48-0714-428c-8fcf-82e045cfedc6}</SharePointProjectItemId>
     </None>
+    <Content Include="Opinion\Elements.xml" />
     <Content Include="Pages\Elements.xml" />
     <Content Include="Pages\Default.aspx" />
+    <None Include="Positivo\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{4dd9d694-c089-43cd-a4db-b992a74bf979}</SharePointProjectItemId>
+    </None>
+    <None Include="TipoOpiniones\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ed28e709-f6cd-4498-996d-a706fe02e409}</SharePointProjectItemId>
+    </None>
+    <None Include="Votos\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{45812f17-76ff-449f-beac-16f8bb043c6e}</SharePointProjectItemId>
+    </None>
+    <None Include="Votos\VotosInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{3afa7fda-f618-4ca7-9986-eef1a1ffd9f0}</SharePointProjectItemId>
+    </None>
+    <None Include="Voto\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9b8e608a-b37c-4bcb-8673-5530e7764062}</SharePointProjectItemId>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\jquery-1.9.1.min.map" />

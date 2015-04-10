@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Elemento (0x01) -->
+  <ContentType ID="0x01007AA256E0F6404C6482F1D087BC486994" Name="TipoOpiniones" Group="Custom Content Types" Description="My Content Type" Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{76A81629-44D4-4ce1-8D4D-6D7EBCD885FC}" DisplayName="$Resources:core,Subject;" Name="Subject" Sealed="TRUE" ShowInFileDlg="FALSE" />
+      <FieldRef ID="{f9899625-a37e-4f83-867b-e241749d9487}" DisplayName="Opinion" Required="TRUE" Name="Opinion" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

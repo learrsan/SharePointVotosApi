@@ -29,10 +29,14 @@
 <asp:Content ContentPlaceHolderID="PlaceHolderMain" runat="server">
 
     <div>
-        <p id="message">
-            <!-- The following content will be replaced with the user name when you run the app - see App.js -->
-            initializing...
-        </p>
+        Añade una opinion:<br/><br/>
+        Asunto: <input type="text" id="txtAsunto"/><br/><br/>
+        Contenido: <br/> <textarea id="txtOpinion" rows="5" cols="50"></textarea><br/><br/>
+        <input type="button" id="btnAddOpinion" value="Aceptar"/>
+        
+
     </div>
+    
+    <div id="listado"></div>
 
 </asp:Content>

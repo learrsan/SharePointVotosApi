@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{7d1e56ae-1a76-411b-aff6-734d825088cb}"
+       Name="BuscadorOpinion"
+       DisplayName="Buscador Opinion"
+       Type="Lookup"
+       Required="TRUE"
+       List="Lists/Opiniones"
+       ShowField="Asunto"
+       Group="Custom Site Columns">
+  </Field>
+</Elements>

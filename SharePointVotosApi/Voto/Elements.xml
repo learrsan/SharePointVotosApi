@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Elemento (0x01) -->
+  <ContentType ID="0x01001DB68CA25D8B4B2EBE7CBFCE9C84C655" Name="Voto" Group="Custom Content Types" Description="My Content Type" Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{4abcb137-6bdf-4ef3-bcfc-7f290dbe8f59}" DisplayName="Positivo" Required="TRUE" Name="Positivo" />
+      <FieldRef ID="{7d1e56ae-1a76-411b-aff6-734d825088cb}" DisplayName="Buscador Opinion" Required="TRUE" Name="BuscadorOpinion" />
+    </FieldRefs>
+  </ContentType>
+</Elements>
