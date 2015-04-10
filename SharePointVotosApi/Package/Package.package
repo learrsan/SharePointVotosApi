@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="94cdb901-c786-45d9-8ef5-9cd070486022" 
+        solutionId="94cdb901-c786-45d9-8ef5-9cd070486022" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="SharePointVotosApi"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="55c51504-9bb5-40e5-a189-b3ad3ed8aa4e" />
+  </features>
+</package>
