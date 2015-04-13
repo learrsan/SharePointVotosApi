@@ -38,5 +38,11 @@
     </div>
     
     <div id="listado"></div>
+    <div>
+        <div id="Asunto"></div>
+        <div id="texto"></div>
+        <div id="votos"></div>
+
+    </div>
 
 </asp:Content>
