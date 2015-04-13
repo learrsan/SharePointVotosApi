@@ -78,13 +78,39 @@ function cargar(id) {
 
         $("#Asunto").html(item.get_item("Subject"));
         $("#texto").html(item.get_item("Opinion"));
-            break;
+        ContarVotos(id);
+        break;
         }
     }
     //}, function(sender, args) {
     //    alert(args.get_message());
     //});
+
 }
+
+function ContarVotos(id) {
+    var votos = 0;
+
+    var url = _spPageContextInfo.webServerRelativeUrl + "/_api/web/lists/getByTitle('Votos')/items";
+    $.ajax({
+        url: url + "?$filter=BuscadorOpinion eq " + id,
+        type: "GET",
+        headers: { "accept": "application/json;odata=verbose" },
+        success: function(res) {
+            $.each(res.d.results, function(i, result) {
+                if (result.Positivo)
+                    votos++;
+                
+            });
+            $("#votos").html(votos);
+        },
+        error: function (err) {
+            alert(JSON.stringify(err));
+
+        }
+    });
+}
+
 
 $(document).ready(function() {
     $("#btnAddOpinion").click(function() {
